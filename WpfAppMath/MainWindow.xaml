@@ -1,0 +1,52 @@
+﻿<Window x:Class="WpfAppMath.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppMath"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="500" Width="700" Background="Gray">
+    <Grid>
+        <TextBlock Name="TextBlock1" FontSize="10" HorizontalAlignment="Center" Margin="0,10,650,0" 
+                   Text="A1" VerticalAlignment="Top"/>
+        <TextBlock Name="TextBlockA1" FontSize="10" HorizontalAlignment="Center" Margin="0,10,600,0" 
+                   Text="число" VerticalAlignment="Top"/>
+        <TextBlock Name="TextBlock2" FontSize="10" HorizontalAlignment="Center" Margin="0,30,650,0" 
+                   Text="A2" VerticalAlignment="Top"/>
+        <TextBlock Name="TextBlockA2" FontSize="10" HorizontalAlignment="Center" Margin="0,30,600,0" 
+                   Text="число" VerticalAlignment="Top"/>
+        <TextBlock Name="TextBlock3" FontSize="10" HorizontalAlignment="Center" Margin="0,50,650,0" 
+                   Text="A3" VerticalAlignment="Top"/>
+        <TextBlock Name="TextBlockA3" FontSize="10" HorizontalAlignment="Center" Margin="0,50,600,0" 
+                   Text="число" VerticalAlignment="Top"/>
+        <TextBlock Name="TextBlock4" FontSize="10" HorizontalAlignment="Center" Margin="0,70,650,0" 
+                   Text="A4" VerticalAlignment="Top"/>
+        <TextBlock Name="TextBlockA4" FontSize="10" HorizontalAlignment="Center" Margin="0,70,600,0" 
+                   Text="число" VerticalAlignment="Top"/>
+        <TextBlock Name="TextBlock5" FontSize="10" HorizontalAlignment="Center" Margin="0,90,650,0" 
+                   Text="B1" VerticalAlignment="Top"/>
+        <TextBlock Name="TextBlockB1" FontSize="10" HorizontalAlignment="Center" Margin="0,90,600,0" 
+                   Text="число" VerticalAlignment="Top"/>
+        <TextBlock Name="TextBlock6" FontSize="10" HorizontalAlignment="Center" Margin="0,110,650,0" 
+                   Text="B2" VerticalAlignment="Top"/>
+        <TextBlock Name="TextBlockB2" FontSize="10" HorizontalAlignment="Center" Margin="0,110,600,0" 
+                   Text="число" VerticalAlignment="Top"/>
+        <TextBlock Name="TextBlock7" FontSize="10" HorizontalAlignment="Center" Margin="0,130,650,0" 
+                   Text="B3" VerticalAlignment="Top"/>
+        <TextBlock Name="TextBlockB3" FontSize="10" HorizontalAlignment="Center" Margin="0,130,600,0" 
+                   Text="число" VerticalAlignment="Top"/>
+        <TextBlock Name="TextBlock" FontSize="10" HorizontalAlignment="Center" Margin="0,150,650,0" 
+                   Text="N" VerticalAlignment="Top"/>
+        
+        
+        <TextBox MaxLength="250" Name="TextBox" Height="18" Width="50" 
+                 Margin="0,145,585,0" VerticalAlignment="Top" HorizontalAlignment="Center" ></TextBox>
+        
+        <Button Name="ButtonCalculate" Content="Calculate" HorizontalAlignment="Center" Margin="0,170,600,0" 
+                VerticalAlignment="Top" Width="60" Height="20" FontSize="12"  Click="Calculate"/>
+        
+        <TextBlock Name="TextBlockAnswer" FontSize="10" HorizontalAlignment="Center" Margin="0,10,250,0" 
+                   Text="" Background = "White" VerticalAlignment="Top" Height="100" Width="250"/>
+
+    </Grid>
+</Window>
